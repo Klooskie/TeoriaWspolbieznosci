@@ -1,0 +1,10 @@
+Wybralem pierwszy algorytm - z uzyciem kelnera - bo wydawal sie byc najbardziej przejrzysty i prosty w implementacji,
+nie musialem korzystac przy nim z semaforow. Jest to rozwiazanie dobre, zwlaszcza ze mozemy zaimplementowac dodatkowa
+kontrole przydzielania widelcow tak, aby zaden z filozofow nie musial czekac zbyt dlugo
+
+Drugi algorytm - z wykorzystaniem hierarchii zasobow - jest rozwiazaniem bardzo dobrym gwarantujacym krotki czas czekania
+filozofow i relatywnie latwa implementacje
+
+Trzeci algorytm - mozliwosc korzystania ze stolu tylko przez jednego filozofa na raz - jest pierwszym pomyslem jak
+rozwiazac problem w bardzo prosty, ale nieoptymany sposob. Zaimplementowanie go pozwolilo sie przekonac o tym,
+jak duzo wolniejsze jest radzenie sobie z tym problemem w zasadzie nie uzywajac wspolbieznosci
